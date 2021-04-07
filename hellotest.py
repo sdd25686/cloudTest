@@ -12,7 +12,7 @@ def Welcome_name(name):
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return Thitiya Prasoetram 6006021612026
 
 if __name__ == "__main__":
-    app.run(debug = True)               
+    app.run(host='0.0.0.0',port = 80)               
